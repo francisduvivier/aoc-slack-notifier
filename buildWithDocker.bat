@@ -1,0 +1,1 @@
+docker run -it --rm -v "%cd%":/usr/src/mymaven -v "%userprofile%\.m2":/root/.m2 -v "%cd%\target:/usr/src/mymaven/target" -w /usr/src/mymaven maven:3.6.3-jdk-11-openj9 mvn package -DskipTests

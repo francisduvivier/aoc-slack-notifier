@@ -79,10 +79,15 @@ mvn package -DskipTests
 
 Alternatively if you have Docker installed locally you can simply run:
 
+On a shell:
 ```shell script
 ./buildWithDocker.sh
 ```
 
+Or on a Windows command prompt: 
+```cmd script
+./buildWithDocker.bat
+```
 ### Step 3: Deploy to AWS
 
 ```shell script
